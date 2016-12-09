@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B7FF92C1DD044EF00135984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FF92B1DD044EF00135984 /* main.m */; };
+		4B7FF92F1DD044F000135984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FF92E1DD044F000135984 /* AppDelegate.m */; };
+		4B7FF9351DD044F000135984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7FF9331DD044F000135984 /* Main.storyboard */; };
+		4B7FF9371DD044F000135984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B7FF9361DD044F000135984 /* Assets.xcassets */; };
+		4B7FF93A1DD044F000135984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B7FF9381DD044F000135984 /* LaunchScreen.storyboard */; };
+		4B7FF9451DD044F000135984 /* webserviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FF9441DD044F000135984 /* webserviceTests.m */; };
+		4B7FF9501DD044F000135984 /* webserviceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FF94F1DD044F000135984 /* webserviceUITests.m */; };
+		4B7FF95F1DD0456B00135984 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FF95E1DD0456B00135984 /* NewsTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B7FF9411DD044F000135984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B7FF91F1DD044EF00135984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B7FF9261DD044EF00135984;
+			remoteInfo = webservice;
+		};
+		4B7FF94C1DD044F000135984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B7FF91F1DD044EF00135984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B7FF9261DD044EF00135984;
+			remoteInfo = webservice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B7FF9271DD044EF00135984 /* webservice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webservice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7FF92B1DD044EF00135984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B7FF92D1DD044EF00135984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B7FF92E1DD044F000135984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B7FF9341DD044F000135984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B7FF9361DD044F000135984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B7FF9391DD044F000135984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B7FF93B1DD044F000135984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B7FF9401DD044F000135984 /* webserviceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webserviceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7FF9441DD044F000135984 /* webserviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webserviceTests.m; sourceTree = "<group>"; };
+		4B7FF9461DD044F000135984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B7FF94B1DD044F000135984 /* webserviceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webserviceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7FF94F1DD044F000135984 /* webserviceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webserviceUITests.m; sourceTree = "<group>"; };
+		4B7FF9511DD044F000135984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B7FF95D1DD0456B00135984 /* NewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
+		4B7FF95E1DD0456B00135984 /* NewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B7FF9241DD044EF00135984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7FF93D1DD044F000135984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7FF9481DD044F000135984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B7FF91E1DD044EF00135984 = {
+			isa = PBXGroup;
+			children = (
+				4B7FF9291DD044EF00135984 /* webservice */,
+				4B7FF9431DD044F000135984 /* webserviceTests */,
+				4B7FF94E1DD044F000135984 /* webserviceUITests */,
+				4B7FF9281DD044EF00135984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B7FF9281DD044EF00135984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B7FF9271DD044EF00135984 /* webservice.app */,
+				4B7FF9401DD044F000135984 /* webserviceTests.xctest */,
+				4B7FF94B1DD044F000135984 /* webserviceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B7FF9291DD044EF00135984 /* webservice */ = {
+			isa = PBXGroup;
+			children = (
+				4B7FF92D1DD044EF00135984 /* AppDelegate.h */,
+				4B7FF92E1DD044F000135984 /* AppDelegate.m */,
+				4B7FF9331DD044F000135984 /* Main.storyboard */,
+				4B7FF95D1DD0456B00135984 /* NewsTableViewController.h */,
+				4B7FF95E1DD0456B00135984 /* NewsTableViewController.m */,
+				4B7FF9361DD044F000135984 /* Assets.xcassets */,
+				4B7FF9381DD044F000135984 /* LaunchScreen.storyboard */,
+				4B7FF93B1DD044F000135984 /* Info.plist */,
+				4B7FF92A1DD044EF00135984 /* Supporting Files */,
+			);
+			path = webservice;
+			sourceTree = "<group>";
+		};
+		4B7FF92A1DD044EF00135984 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B7FF92B1DD044EF00135984 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B7FF9431DD044F000135984 /* webserviceTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B7FF9441DD044F000135984 /* webserviceTests.m */,
+				4B7FF9461DD044F000135984 /* Info.plist */,
+			);
+			path = webserviceTests;
+			sourceTree = "<group>";
+		};
+		4B7FF94E1DD044F000135984 /* webserviceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B7FF94F1DD044F000135984 /* webserviceUITests.m */,
+				4B7FF9511DD044F000135984 /* Info.plist */,
+			);
+			path = webserviceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B7FF9261DD044EF00135984 /* webservice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B7FF9541DD044F000135984 /* Build configuration list for PBXNativeTarget "webservice" */;
+			buildPhases = (
+				4B7FF9231DD044EF00135984 /* Sources */,
+				4B7FF9241DD044EF00135984 /* Frameworks */,
+				4B7FF9251DD044EF00135984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webservice;
+			productName = webservice;
+			productReference = 4B7FF9271DD044EF00135984 /* webservice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B7FF93F1DD044F000135984 /* webserviceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B7FF9571DD044F000135984 /* Build configuration list for PBXNativeTarget "webserviceTests" */;
+			buildPhases = (
+				4B7FF93C1DD044F000135984 /* Sources */,
+				4B7FF93D1DD044F000135984 /* Frameworks */,
+				4B7FF93E1DD044F000135984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B7FF9421DD044F000135984 /* PBXTargetDependency */,
+			);
+			name = webserviceTests;
+			productName = webserviceTests;
+			productReference = 4B7FF9401DD044F000135984 /* webserviceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B7FF94A1DD044F000135984 /* webserviceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B7FF95A1DD044F000135984 /* Build configuration list for PBXNativeTarget "webserviceUITests" */;
+			buildPhases = (
+				4B7FF9471DD044F000135984 /* Sources */,
+				4B7FF9481DD044F000135984 /* Frameworks */,
+				4B7FF9491DD044F000135984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B7FF94D1DD044F000135984 /* PBXTargetDependency */,
+			);
+			name = webserviceUITests;
+			productName = webserviceUITests;
+			productReference = 4B7FF94B1DD044F000135984 /* webserviceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B7FF91F1DD044EF00135984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Felix-Harish";
+				TargetAttributes = {
+					4B7FF9261DD044EF00135984 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4B7FF93F1DD044F000135984 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4B7FF9261DD044EF00135984;
+					};
+					4B7FF94A1DD044F000135984 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4B7FF9261DD044EF00135984;
+					};
+				};
+			};
+			buildConfigurationList = 4B7FF9221DD044EF00135984 /* Build configuration list for PBXProject "webservice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B7FF91E1DD044EF00135984;
+			productRefGroup = 4B7FF9281DD044EF00135984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B7FF9261DD044EF00135984 /* webservice */,
+				4B7FF93F1DD044F000135984 /* webserviceTests */,
+				4B7FF94A1DD044F000135984 /* webserviceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B7FF9251DD044EF00135984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7FF93A1DD044F000135984 /* LaunchScreen.storyboard in Resources */,
+				4B7FF9371DD044F000135984 /* Assets.xcassets in Resources */,
+				4B7FF9351DD044F000135984 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7FF93E1DD044F000135984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7FF9491DD044F000135984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B7FF9231DD044EF00135984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7FF95F1DD0456B00135984 /* NewsTableViewController.m in Sources */,
+				4B7FF92F1DD044F000135984 /* AppDelegate.m in Sources */,
+				4B7FF92C1DD044EF00135984 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7FF93C1DD044F000135984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7FF9451DD044F000135984 /* webserviceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B7FF9471DD044F000135984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7FF9501DD044F000135984 /* webserviceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B7FF9421DD044F000135984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B7FF9261DD044EF00135984 /* webservice */;
+			targetProxy = 4B7FF9411DD044F000135984 /* PBXContainerItemProxy */;
+		};
+		4B7FF94D1DD044F000135984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B7FF9261DD044EF00135984 /* webservice */;
+			targetProxy = 4B7FF94C1DD044F000135984 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B7FF9331DD044F000135984 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B7FF9341DD044F000135984 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B7FF9381DD044F000135984 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B7FF9391DD044F000135984 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B7FF9521DD044F000135984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B7FF9531DD044F000135984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B7FF9551DD044F000135984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = webservice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-Harish.webservice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B7FF9561DD044F000135984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = webservice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-Harish.webservice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B7FF9581DD044F000135984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = webserviceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-Harish.webserviceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webservice.app/webservice";
+			};
+			name = Debug;
+		};
+		4B7FF9591DD044F000135984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = webserviceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-Harish.webserviceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webservice.app/webservice";
+			};
+			name = Release;
+		};
+		4B7FF95B1DD044F000135984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = webserviceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-Harish.webserviceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = webservice;
+			};
+			name = Debug;
+		};
+		4B7FF95C1DD044F000135984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = webserviceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-Harish.webserviceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = webservice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B7FF9221DD044EF00135984 /* Build configuration list for PBXProject "webservice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B7FF9521DD044F000135984 /* Debug */,
+				4B7FF9531DD044F000135984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B7FF9541DD044F000135984 /* Build configuration list for PBXNativeTarget "webservice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B7FF9551DD044F000135984 /* Debug */,
+				4B7FF9561DD044F000135984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B7FF9571DD044F000135984 /* Build configuration list for PBXNativeTarget "webserviceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B7FF9581DD044F000135984 /* Debug */,
+				4B7FF9591DD044F000135984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B7FF95A1DD044F000135984 /* Build configuration list for PBXNativeTarget "webserviceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B7FF95B1DD044F000135984 /* Debug */,
+				4B7FF95C1DD044F000135984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B7FF91F1DD044EF00135984 /* Project object */;
+}
